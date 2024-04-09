@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/63b3d1a97a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+<div class="container">
+    <nav>
+        <img src="images/Ankit pf.png" class="logo" alt="">
+   <ul id="sidemenu" >
+    <li><a href="#header">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#portfolio">Portfolio</a></li>
+    <li><a href="#contact">Contact</a></li>
+    <i class="fas fa-times" onclick="closemenu()"></i>
+   </ul>
+   <i class="fa-solid fa-bars" onclick="openmenu()" ></i>
+    </nav>
+    <div class="header-text">WEB DEVELOPER</div>
+    <h1 class="name-ankit">Hi, I'm <span style="color: #ff004f;">Ankit</span> Mehta From India</h1>
+    <h3>A Full stack Web Developer building the frontend as well as backend of Websites and Web Applications that leads to the success of the overall product. </h3>
+</div>
+    </div>
+
+<!-- ----------------About Me----------------------->
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/Stack dp.png" >
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-titles">About Me</h1>
+                <p>Hello there! I'm a dedicated and passionate student on a journey to master the MERN (MongoDB, Express.js, React, Node.js) stack. Currently pursuing a Bachelor's at Shobhit University, I am driven by a deep curiosity for web development and a thirst for knowledge. <br> Eager to turn my passion into a profession, I am actively seeking opportunities to apply my MERN stack expertise and expand my horizons in the dynamic field of web development. If you share a similar passion for cutting-edge technology and are looking for a motivated learner ready to make a meaningful impact, let's connect!  </p>
+
+<div class="tab-titles">
+    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+    <p class="tab-links" onclick="opentab('education')">Education</p>
+</div>
+<div class="tab-contents active-tab" id="skills">
+    <ul>
+        <li><span>Front-End</span><br> <img class="skill-icon" src="images/html-5-svgrepo-com.svg" >HTML <br> <img class="skill-icon" src="images/css.svg" >  CSS<br> <img class="skill-icon" src="images/javascript.svg" > JavaScript <br> <img class="skill-icon" src="images/react.svg" > React.js</li>
+        <li ><span>Back-End</span> <br> <img class="skill-icon" src="images/nodejs.svg"> Node.js <br> <img class="skill-icon-ex" src="images/express.svg" > Express.js <br> <img class="skill-icon" src="images/mongodb.svg" > MongoDB  </li>       
+    </ul>
+</div>
+<div class="tab-contents" id="experience">
+    <ul>
+        <li><span>2023</span> <br> Freelancing </li>
+        <li><span>Projects</span> <br> Spotify Clone <br> Netflix Landing Page  </li>       
+    </ul>
+</div>
+<div class="tab-contents" id="education">
+    <ul>
+        <li><span>2024</span> <br> Bachelor's in Computer Applications From Shobhit University </li>
+            
+    </ul>
+</div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- -----------services------------>
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-titles"> Projects </h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>
+                    Web development
+                </h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas, aliquam!</p>
+            <a href="#">Learn more</a>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>
+                    Web Design
+                </h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas, aliquam!</p>
+            <a href="#">Learn more</a>
+            </div>
+            
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>
+                    Web development
+                </h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas, aliquam!</p>
+            <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ----------portfolio------------>
+
+<div id="portfolio">
+<h1 class="sub-titles-front">Projects ( Clones )</h1>
+<div class="work-list">
+    <div class="work">
+        <img src="images/work-1.png" >
+        <div class="layer">
+            <h3>Social Media App</h3>
+            <p> A app to share your content worldwide</p>
+            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+            
+        </div>
+    </div>
+    <div class="work">
+        <img src="images/work-2.png" >
+        <div class="layer">
+            <h3>Spotify</h3>
+            <p>A music listening platform with huge library </p>
+            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+        </div>
+    </div>
+    <div class="work">
+        <img src="images/work-3.png" >
+        <div class="layer">
+            <h3>Music Player</h3>
+            <P>A player that can play your downloaded audio </P>
+            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+        </div>
+    </div>
+</div>
+<a href="#" class="btn">See more</a>
+</div>
+
+<!-- -----------------Contact-------------->
+<div id="contact">
+<div class="container">
+    <div class="row">
+        <div class="contact-left">
+            <h1 class="sub-titles">Contact Me</h1>
+            <p> <i class="fa-solid fa-paper-plane"></i> ankitmmehta08@gmail.com</p>
+            <p> <i class="fa-solid fa-phone"></i> 8605357324</p>
+            <div class="social-icons">
+<a href="https://www.linkedin.com/in/ankit-ankit-969003233/"><i class="fa-brands fa-linkedin"></i></a>
+<a href="https://twitter.com/MehtaAnkit07"><i class="fa-brands fa-x-twitter"></i></i></a>
+<a href="https://github.com/Mehta0007"><i class="fa-brands fa-github"></i></a>
+
+            </div>
+            <a href="" class="download-cv">Download CV</a>
+        </div>
+        <div class="contact-right">
+            <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="text" name="Email" placeholder="Your Email" required>
+           <textarea name="Message" rows="10" placeholder="Your Message"></textarea>
+            <button type="submit" class="download-cv">Submit</button>    
+        </form>
+<span id="msg"></span>
+
+
+
+        </div>
+    </div>
+</div>
+<div class="copyright">
+    <p>Copyright © Ankit</p>
+</div>
+</div>
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link")
+    document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+
+
+
+<script>
+// --------------menu section------------
+var sidemenu = document.getElementById('sidemenu');
+
+function openmenu(){
+    sidemenu.style.right = "0";
+}
+function closemenu(){
+    sidemenu.style.right = "-200px";
+}
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbx7Xl3ZGp9UQYMDnDGy1VVk7B9HkaDqrImib5G1yadwBhh3Ui2IQd3BVcSwpQgnE3SX4Q/exec'
+    const form = document.forms['submit-to-google-sheet']
+  
+const msg = document.getElementById("msg")
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+       setTimeout(function(){
+        msg.innerHTML = ""
+       },5000)
+form.reset()
+
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
